@@ -1,29 +1,25 @@
-# Corne keyboard
+# The FourBySix Keyboard
 
-The Corne keyboard is a split keyboard with 3x6 column staggered keys and 3 thumb keys,
-based on [Helix](https://github.com/MakotoKurauchi/helix).
-Crkbd stands for Corne Keyboard.
+The FourBySix is a keyboard inspired by and forked from the amazing Corne keyboard. After having built a number
+of Corne KBs, I need something that has the number row. There are other forks like Lily58 (and further still, like
+Sofle, Orbit etc) but they have certain features that I have a strong preference to remove (mirrored PCB, unutilized
+component designations, dependence on Pro Micro etc).
 
-## Lineup
+## Major Design Goals
+### User's POV
+1. Split ortho-linear layout.
+2. Have a dedicated numbers row.
+3. No bigger than a standard print of Moby Dick when packed.
+4. Enable USB-C without the added cost of an Elite-C board.
+5. Per Key and ambient LEDs.
 
-- corne-classic([JP](corne-classic/doc/buildguide_jp.md)/[EN](corne-classic/doc/buildguide_en.md)):
-    Corne for Cherry MX switches
-- corne-cherry([JP](corne-cherry/doc/buildguide_jp.md)) ([tilting, JP](corne-cherry/doc/v2/buildguide_tilting_tenting_plate_jp.md)):
-    Hotswappable Corne for Cherry MX switches by kailh PCB sockets.
-- corne-chocolate([JP](corne-chocolate/doc/buildguide_jp.md)/[EN](corne-chocolate/doc/buildguide_en.md)):
-    Hotswappable Corne for Chocolate switches using Kailh PCB hot-swap sockets.
-- corne-light([JP](corne-light/doc/buildguide_jp.md)):
-    Light-weight Corne (Easy build with a simple PCB).
+### Builder's POV
+1. Enable factory assembly as much as possible (jlcpcb.com in my case)
+2. Clean, self documenting PCB layout.
+3. Compatible with low-profile switches and keycaps
+4. Directly embedded atmega32u4
+5. 4 layer PCB
 
-## Photos
-
-![cherry_01](https://user-images.githubusercontent.com/736191/47172655-0d0e9b80-d347-11e8-8a11-ccce9bf8d2b4.JPG)
-![cherry_02](https://user-images.githubusercontent.com/736191/47172658-0da73200-d347-11e8-8ab5-6267faf3e447.JPG)
-![cherry_03](https://user-images.githubusercontent.com/736191/47172661-0da73200-d347-11e8-95a5-4e978fbb70bb.JPG)
-![cherry_04](https://user-images.githubusercontent.com/736191/47172662-0da73200-d347-11e8-8510-139a9ed94d9a.JPG)
-![chocolate_01](https://user-images.githubusercontent.com/736191/49698496-0c3c0c80-fc08-11e8-87bc-4fd2aa7f3f78.jpg)
-![chocolate_02](https://user-images.githubusercontent.com/736191/49698493-06462b80-fc08-11e8-95fd-8d18763b38ff.jpg)
-![classic_01](https://user-images.githubusercontent.com/736191/43596530-8330e31e-96ba-11e8-8aee-4956470d2c3b.png)
-![classic_02](https://user-images.githubusercontent.com/736191/43596538-8ab6be6a-96ba-11e8-90c5-13edd2eb7fb4.png)
-![light_01](https://user-images.githubusercontent.com/736191/69654854-d615c800-10b8-11ea-8903-ebf019d7b125.png)
-![light_02](https://user-images.githubusercontent.com/736191/69654882-df069980-10b8-11ea-8efe-069b68db3bc0.png)
+## Starting Priorities
+Calling out a few assumptions I will be starting with, but would like to expand when time permits.
+1. Kailh Cherry MX hot swap sockets as switch anchors
