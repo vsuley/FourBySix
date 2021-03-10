@@ -423,67 +423,67 @@ $EndComp
 $Comp
 L kbd:SW_PUSH SW20
 U 1 1 5A5E37A4
-P 6700 3075
-F 0 "SW20" H 6850 3185 50  0000 C CNN
-F 1 "SW_PUSH" H 6700 2995 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap" H 6700 3075 50  0001 C CNN
-F 3 "" H 6700 3075 50  0000 C CNN
-	1    6700 3075
+P 6700 3825
+F 0 "SW20" H 6850 3935 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 3745 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6700 3825 50  0001 C CNN
+F 3 "" H 6700 3825 50  0000 C CNN
+	1    6700 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D20
 U 1 1 5A5E37AA
-P 7000 3225
-F 0 "D20" H 7000 3325 50  0000 C CNN
-F 1 "D" H 7000 3125 50  0000 C CNN
-F 2 "kbd:D3_SMD_v2" H 7000 3225 50  0001 C CNN
-F 3 "" H 7000 3225 50  0001 C CNN
-	1    7000 3225
+P 7000 3975
+F 0 "D20" H 7000 4075 50  0000 C CNN
+F 1 "D" H 7000 3875 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 7000 3975 50  0001 C CNN
+F 3 "" H 7000 3975 50  0001 C CNN
+	1    7000 3975
 	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW21
 U 1 1 5A5E37B0
-P 7400 3075
-F 0 "SW21" H 7550 3185 50  0000 C CNN
-F 1 "SW_PUSH" H 7400 2995 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap_1.5u" H 7400 3075 50  0001 C CNN
-F 3 "" H 7400 3075 50  0000 C CNN
-	1    7400 3075
+P 7400 3825
+F 0 "SW21" H 7550 3935 50  0000 C CNN
+F 1 "SW_PUSH" H 7400 3745 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap_1.5u" H 7400 3825 50  0001 C CNN
+F 3 "" H 7400 3825 50  0000 C CNN
+	1    7400 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D21
 U 1 1 5A5E37B6
-P 7700 3225
-F 0 "D21" H 7700 3325 50  0000 C CNN
-F 1 "D" H 7700 3125 50  0000 C CNN
-F 2 "kbd:D3_SMD_v2" H 7700 3225 50  0001 C CNN
-F 3 "" H 7700 3225 50  0001 C CNN
-	1    7700 3225
+P 7700 3975
+F 0 "D21" H 7700 4075 50  0000 C CNN
+F 1 "D" H 7700 3875 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 7700 3975 50  0001 C CNN
+F 3 "" H 7700 3975 50  0001 C CNN
+	1    7700 3975
 	0    -1   -1   0   
 $EndComp
 $Comp
 L kbd:SW_PUSH SW19
 U 1 1 5A5E37EC
-P 6000 3075
-F 0 "SW19" H 6150 3185 50  0000 C CNN
-F 1 "SW_PUSH" H 6000 2995 50  0000 C CNN
-F 2 "kbd:CherryMX_Hotswap" H 6000 3075 50  0001 C CNN
-F 3 "" H 6000 3075 50  0000 C CNN
-	1    6000 3075
+P 6000 3825
+F 0 "SW19" H 6150 3935 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3745 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6000 3825 50  0001 C CNN
+F 3 "" H 6000 3825 50  0000 C CNN
+	1    6000 3825
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D19
 U 1 1 5A5E37F2
-P 6300 3225
-F 0 "D19" H 6300 3325 50  0000 C CNN
-F 1 "D" H 6300 3125 50  0000 C CNN
-F 2 "kbd:D3_SMD_v2" H 6300 3225 50  0001 C CNN
-F 3 "" H 6300 3225 50  0001 C CNN
-	1    6300 3225
+P 6300 3975
+F 0 "D19" H 6300 4075 50  0000 C CNN
+F 1 "D" H 6300 3875 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 6300 3975 50  0001 C CNN
+F 3 "" H 6300 3975 50  0001 C CNN
+	1    6300 3975
 	0    -1   -1   0   
 $EndComp
 Text GLabel 4300 1125 1    60   Input ~ 0
@@ -504,7 +504,7 @@ Text GLabel 4050 2175 0    60   Input ~ 0
 row1
 Text GLabel 4050 2775 0    60   Input ~ 0
 row2
-Text GLabel 6125 3375 0    60   Input ~ 0
+Text GLabel 6125 4125 0    60   Input ~ 0
 row3
 $Comp
 L power:GND #PWR07
@@ -703,8 +703,8 @@ F 3 "" H 2425 3125 50  0001 C CNN
 	1    2150 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 6300 3375
-Connection ~ 7000 3375
+Connection ~ 6300 4125
+Connection ~ 7000 4125
 Wire Wire Line
 	4050 2775 4200 2775
 Wire Wire Line
@@ -748,9 +748,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 2975 2450 3075
 Wire Wire Line
-	6300 3375 7000 3375
+	6300 4125 7000 4125
 Wire Wire Line
-	7000 3375 7700 3375
+	7000 4125 7700 4125
 Wire Wire Line
 	975  1475 1075 1475
 Wire Wire Line
@@ -784,64 +784,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 1575 7700 1575
 Wire Wire Line
-	6125 3375 6300 3375
-Wire Wire Line
-	3600 1125 3600 1275
-Wire Wire Line
-	4300 1125 4300 1275
-Wire Wire Line
-	5000 1125 5000 1275
-Wire Wire Line
-	7100 1125 7100 1275
-Wire Wire Line
-	6400 1125 6400 1275
-Wire Wire Line
-	5700 1125 5700 1275
-Connection ~ 3600 1275
-Wire Wire Line
-	3600 1275 3600 1875
-Connection ~ 3600 1875
-Wire Wire Line
-	3600 1875 3600 2475
-Connection ~ 4300 1275
-Wire Wire Line
-	4300 1275 4300 1875
-Connection ~ 4300 1875
-Wire Wire Line
-	4300 1875 4300 2475
-Connection ~ 5000 1275
-Wire Wire Line
-	5000 1275 5000 1875
-Connection ~ 5000 1875
-Wire Wire Line
-	5000 1875 5000 2475
-Connection ~ 5700 1275
-Wire Wire Line
-	5700 1275 5700 1875
-Connection ~ 5700 1875
-Wire Wire Line
-	5700 1875 5700 2475
-Connection ~ 5700 2475
-Wire Wire Line
-	5700 2475 5700 3075
-Connection ~ 6400 1275
-Wire Wire Line
-	6400 1275 6400 1875
-Connection ~ 6400 1875
-Wire Wire Line
-	6400 1875 6400 2475
-Connection ~ 6400 2475
-Wire Wire Line
-	6400 2475 6400 3075
-Connection ~ 7100 1275
-Wire Wire Line
-	7100 1275 7100 1875
-Connection ~ 7100 1875
-Wire Wire Line
-	7100 1875 7100 2475
-Connection ~ 7100 2475
-Wire Wire Line
-	7100 2475 7100 3075
+	6125 4125 6300 4125
 $Comp
 L kbd:ProMicro U2
 U 1 1 5C25F857
@@ -1548,63 +1491,6 @@ Wire Wire Line
 	14975 1700 15675 1700
 Wire Wire Line
 	14100 3500 14275 3500
-Wire Wire Line
-	11575 1250 11575 1400
-Wire Wire Line
-	12275 1250 12275 1400
-Wire Wire Line
-	12975 1250 12975 1400
-Wire Wire Line
-	15075 1250 15075 1400
-Wire Wire Line
-	14375 1250 14375 1400
-Wire Wire Line
-	13675 1250 13675 1400
-Connection ~ 11575 1400
-Wire Wire Line
-	11575 1400 11575 2000
-Connection ~ 11575 2000
-Wire Wire Line
-	11575 2000 11575 2600
-Connection ~ 12275 1400
-Wire Wire Line
-	12275 1400 12275 2000
-Connection ~ 12275 2000
-Wire Wire Line
-	12275 2000 12275 2600
-Connection ~ 12975 1400
-Wire Wire Line
-	12975 1400 12975 2000
-Connection ~ 12975 2000
-Wire Wire Line
-	12975 2000 12975 2600
-Connection ~ 13675 1400
-Wire Wire Line
-	13675 1400 13675 2000
-Connection ~ 13675 2000
-Wire Wire Line
-	13675 2000 13675 2600
-Connection ~ 13675 2600
-Wire Wire Line
-	13675 2600 13675 3200
-Connection ~ 14375 1400
-Wire Wire Line
-	14375 1400 14375 2000
-Connection ~ 14375 2000
-Wire Wire Line
-	14375 2000 14375 2600
-Connection ~ 14375 2600
-Wire Wire Line
-	14375 2600 14375 3200
-Connection ~ 15075 1400
-Wire Wire Line
-	15075 1400 15075 2000
-Connection ~ 15075 2000
-Wire Wire Line
-	15075 2000 15075 2600
-Connection ~ 15075 2600
-Wire Wire Line
-	15075 2600 15075 3200
 NoConn ~ 2350 2875
 NoConn ~ 10650 2925
 Wire Wire Line
@@ -1974,20 +1860,9 @@ NoConn ~ 1100 9650
 Wire Wire Line
 	3650 7350 2800 7350
 Wire Wire Line
-	5650 7650 5650 8500
-Connection ~ 5650 8500
-Wire Wire Line
-	5650 8500 5650 9350
-Connection ~ 5650 9350
-Connection ~ 5650 10200
-Wire Wire Line
 	4200 7650 4075 7650
 Wire Wire Line
 	4075 7650 4075 8500
-Wire Wire Line
-	800  7650 800  8500
-Connection ~ 800  8500
-Connection ~ 800  9350
 Wire Wire Line
 	3950 7650 4075 7650
 Connection ~ 4075 7650
@@ -2065,17 +1940,9 @@ F 3 "" H 3225 7025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 9350 5650 10200
-Wire Wire Line
 	4075 9350 4075 10200
 Wire Wire Line
 	2375 8500 2375 9350
-Wire Wire Line
-	800  8500 800  9350
-Wire Wire Line
-	5650 10200 5650 10725
-Wire Wire Line
-	800  9350 800  10725
 Wire Wire Line
 	2375 9350 2375 10725
 Wire Wire Line
@@ -2577,20 +2444,9 @@ NoConn ~ 6675 9675
 Wire Wire Line
 	9225 7375 8375 7375
 Wire Wire Line
-	11225 7675 11225 8525
-Connection ~ 11225 8525
-Wire Wire Line
-	11225 8525 11225 9375
-Connection ~ 11225 9375
-Connection ~ 11225 10225
-Wire Wire Line
 	9775 7675 9650 7675
 Wire Wire Line
 	9650 7675 9650 8525
-Wire Wire Line
-	6375 7675 6375 8525
-Connection ~ 6375 8525
-Connection ~ 6375 9375
 Wire Wire Line
 	9525 7675 9650 7675
 Connection ~ 9650 7675
@@ -2657,17 +2513,9 @@ Wire Wire Line
 Text GLabel 9950 5175 2    50   Input ~ 0
 LED_r
 Wire Wire Line
-	11225 9375 11225 10225
-Wire Wire Line
 	9650 9375 9650 10225
 Wire Wire Line
 	7950 8525 7950 9375
-Wire Wire Line
-	6375 8525 6375 9375
-Wire Wire Line
-	11225 10225 11225 10750
-Wire Wire Line
-	6375 9375 6375 10750
 Wire Wire Line
 	7950 9375 7950 10750
 Wire Wire Line
@@ -2913,4 +2761,187 @@ Wire Wire Line
 	9350 2875 9725 2875
 Wire Wire Line
 	9725 2875 9725 3050
+Wire Wire Line
+	11575 1250 11575 2600
+Wire Wire Line
+	12275 1250 12275 2600
+Wire Wire Line
+	12975 1250 12975 2600
+Wire Wire Line
+	800  7650 800  10725
+Wire Wire Line
+	6375 7675 6375 10750
+Wire Wire Line
+	15075 1250 15075 3200
+Wire Wire Line
+	14375 1250 14375 3200
+Wire Wire Line
+	13675 1250 13675 3200
+Wire Wire Line
+	5650 7650 5650 10725
+Wire Wire Line
+	11225 7675 11225 10750
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED507
+P 4600 3175
+F 0 "SW?" H 4750 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 4600 3175 50  0001 C CNN
+F 3 "" H 4600 3175 50  0000 C CNN
+	1    4600 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED50D
+P 4900 3325
+F 0 "D?" H 4900 3425 50  0000 C CNN
+F 1 "D" H 4900 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 4900 3325 50  0001 C CNN
+F 3 "" H 4900 3325 50  0001 C CNN
+	1    4900 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED513
+P 5300 3175
+F 0 "SW?" H 5450 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 5300 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 5300 3175 50  0001 C CNN
+F 3 "" H 5300 3175 50  0000 C CNN
+	1    5300 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED519
+P 5600 3325
+F 0 "D?" H 5600 3425 50  0000 C CNN
+F 1 "D" H 5600 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 5600 3325 50  0001 C CNN
+F 3 "" H 5600 3325 50  0001 C CNN
+	1    5600 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED51F
+P 6000 3175
+F 0 "SW?" H 6150 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 6000 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6000 3175 50  0001 C CNN
+F 3 "" H 6000 3175 50  0000 C CNN
+	1    6000 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED525
+P 6700 3175
+F 0 "SW?" H 6850 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 6700 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 6700 3175 50  0001 C CNN
+F 3 "" H 6700 3175 50  0000 C CNN
+	1    6700 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED52B
+P 7400 3175
+F 0 "SW?" H 7550 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 7400 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 7400 3175 50  0001 C CNN
+F 3 "" H 7400 3175 50  0000 C CNN
+	1    7400 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED531
+P 6300 3325
+F 0 "D?" H 6300 3425 50  0000 C CNN
+F 1 "D" H 6300 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 6300 3325 50  0001 C CNN
+F 3 "" H 6300 3325 50  0001 C CNN
+	1    6300 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED537
+P 7000 3325
+F 0 "D?" H 7000 3425 50  0000 C CNN
+F 1 "D" H 7000 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 7000 3325 50  0001 C CNN
+F 3 "" H 7000 3325 50  0001 C CNN
+	1    7000 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED53D
+P 7700 3325
+F 0 "D?" H 7700 3425 50  0000 C CNN
+F 1 "D" H 7700 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 7700 3325 50  0001 C CNN
+F 3 "" H 7700 3325 50  0001 C CNN
+	1    7700 3325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW?
+U 1 1 604ED543
+P 3900 3175
+F 0 "SW?" H 4050 3285 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 3095 50  0000 C CNN
+F 2 "kbd:CherryMX_Hotswap" H 3900 3175 50  0001 C CNN
+F 3 "" H 3900 3175 50  0000 C CNN
+	1    3900 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 604ED549
+P 4200 3325
+F 0 "D?" H 4200 3425 50  0000 C CNN
+F 1 "D" H 4200 3225 50  0000 C CNN
+F 2 "kbd:D3_SMD_v2" H 4200 3325 50  0001 C CNN
+F 3 "" H 4200 3325 50  0001 C CNN
+	1    4200 3325
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4050 3475 0    60   Input ~ 0
+row2
+Wire Wire Line
+	4050 3475 4200 3475
+Connection ~ 4200 3475
+Connection ~ 4900 3475
+Connection ~ 5600 3475
+Connection ~ 6300 3475
+Connection ~ 7000 3475
+Wire Wire Line
+	4200 3475 4900 3475
+Wire Wire Line
+	4900 3475 5600 3475
+Wire Wire Line
+	5600 3475 6300 3475
+Wire Wire Line
+	6300 3475 7000 3475
+Wire Wire Line
+	7000 3475 7700 3475
+Wire Wire Line
+	3600 1125 3600 3175
+Wire Wire Line
+	4300 1125 4300 3175
+Wire Wire Line
+	5000 1125 5000 3175
+Wire Wire Line
+	7100 1875 7100 4525
+Wire Wire Line
+	6400 1875 6400 4525
+Wire Wire Line
+	5700 1875 5700 4525
 $EndSCHEMATC

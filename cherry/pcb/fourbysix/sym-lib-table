@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name fourbysix-cache)(type Legacy)(uri ${KIPRJMOD}/fourbysix-cache.lib)(options "")(descr ""))
+)
