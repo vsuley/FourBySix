@@ -371,17 +371,6 @@ Wire Wire Line
 	3600 3400 4000 3400
 Wire Wire Line
 	4000 3450 4000 3400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6070BA01
-P 4000 3300
-F 0 "#PWR?" H 4000 3150 50  0001 C CNN
-F 1 "+3.3V" H 4015 3473 50  0000 C CNN
-F 2 "" H 4000 3300 50  0001 C CNN
-F 3 "" H 4000 3300 50  0001 C CNN
-	1    4000 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 3400 4000 3300
 Connection ~ 4000 3400
@@ -449,13 +438,9 @@ Wire Wire Line
 	750  3200 900  3200
 Wire Wire Line
 	900  3200 900  2800
-Wire Wire Line
-	900  2800 1800 2800
 Connection ~ 900  3200
 Wire Wire Line
 	900  3200 1000 3200
-Wire Wire Line
-	2300 2800 3600 2800
 Wire Wire Line
 	3600 2800 3600 3400
 Wire Wire Line
@@ -489,17 +474,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 1000 1300 1300
 Connection ~ 1300 1300
-$Comp
-L power:+3.3V #PWR?
-U 1 1 607BDAB6
-P 3950 1000
-F 0 "#PWR?" H 3950 850 50  0001 C CNN
-F 1 "+3.3V" H 3965 1173 50  0000 C CNN
-F 2 "" H 3950 1000 50  0001 C CNN
-F 3 "" H 3950 1000 50  0001 C CNN
-	1    3950 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 607BE1BC
@@ -577,17 +551,6 @@ F 3 "" H 6900 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 950  6900 1400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60807BE1
-P 7400 950
-F 0 "#PWR?" H 7400 800 50  0001 C CNN
-F 1 "+3.3V" H 7350 1150 50  0000 C CNN
-F 2 "" H 7400 950 50  0001 C CNN
-F 3 "" H 7400 950 50  0001 C CNN
-	1    7400 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7400 950  7400 1800
 $Comp
@@ -608,32 +571,10 @@ Wire Wire Line
 Connection ~ 4900 2350
 Wire Wire Line
 	4900 2350 4900 2400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60821479
-P 8800 1800
-F 0 "#PWR?" H 8800 1650 50  0001 C CNN
-F 1 "+3.3V" H 8750 2000 50  0000 C CNN
-F 2 "" H 8800 1800 50  0001 C CNN
-F 3 "" H 8800 1800 50  0001 C CNN
-	1    8800 1800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8200 1800 8400 1800
 Wire Wire Line
 	8700 1800 8800 1800
-$Comp
-L power:+3.3V #PWR?
-U 1 1 60826DD9
-P 8850 2400
-F 0 "#PWR?" H 8850 2250 50  0001 C CNN
-F 1 "+3.3V" H 8800 2600 50  0000 C CNN
-F 2 "" H 8850 2400 50  0001 C CNN
-F 3 "" H 8850 2400 50  0001 C CNN
-	1    8850 2400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8500 2400 8650 2400
 Wire Wire Line
@@ -764,4 +705,65 @@ Wire Wire Line
 	8100 3000 8100 3150
 Wire Wire Line
 	8200 3000 8200 3150
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 604B795A
+P 2050 2800
+F 0 "JP1" H 2050 2900 50  0000 C CNN
+F 1 "Closed for 5V, Open for 3.3V" H 2100 2700 50  0000 C CNN
+F 2 "" H 2050 2800 50  0001 C CNN
+F 3 "~" H 2050 2800 50  0001 C CNN
+	1    2050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2800 1900 2800
+Wire Wire Line
+	2200 2800 3600 2800
+$Comp
+L power:VCC #PWR?
+U 1 1 604FAF02
+P 8800 1800
+F 0 "#PWR?" H 8800 1650 50  0001 C CNN
+F 1 "VCC" V 8815 1928 50  0000 L CNN
+F 2 "" H 8800 1800 50  0001 C CNN
+F 3 "" H 8800 1800 50  0001 C CNN
+	1    8800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 604FB719
+P 8850 2400
+F 0 "#PWR?" H 8850 2250 50  0001 C CNN
+F 1 "VCC" V 8865 2528 50  0000 L CNN
+F 2 "" H 8850 2400 50  0001 C CNN
+F 3 "" H 8850 2400 50  0001 C CNN
+	1    8850 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 604FC025
+P 7400 950
+F 0 "#PWR?" H 7400 800 50  0001 C CNN
+F 1 "VCC" H 7415 1123 50  0000 C CNN
+F 2 "" H 7400 950 50  0001 C CNN
+F 3 "" H 7400 950 50  0001 C CNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6050C95E
+P 4000 3300
+F 0 "#PWR?" H 4000 3150 50  0001 C CNN
+F 1 "VCC" H 4015 3473 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 1000 1    50   Input ~ 0
+UVCC
 $EndSCHEMATC
