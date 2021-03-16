@@ -1,7 +1,2 @@
 EESchema-DOCLIB  Version 2.0
-#
-$CMP Key_SW
-D Denotes a single Keyswitch on the keyboard
-$ENDCMP
-#
 #End Doc Library
