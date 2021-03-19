@@ -28,3 +28,4 @@ gerber/
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+cherry/pcb/sym-lib-table
