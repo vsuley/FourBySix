@@ -23,3 +23,8 @@ component designations, dependence on Pro Micro etc).
 ## Starting Priorities
 Calling out a few assumptions I will be starting with, but would like to expand when time permits.
 1. Kailh Cherry MX hot swap sockets as switch anchors
+
+## Why "Ganesha"?
+Ganesha, in Hindu mythology, is the popular elephant headed deity whose images you may have seen. Aside from being the son 
+of Lord Shiva, he is also the God of Wisdom and more pertinently, he is the scribe who penned down the great epic 
+'Mahabharata' as sage Vyasa composed it.
