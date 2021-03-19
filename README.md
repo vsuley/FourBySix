@@ -1,6 +1,6 @@
-# The FourBySix Keyboard
+# The Ganesha Keyboard
 
-The FourBySix is a keyboard inspired by and forked from the amazing Corne keyboard. After having built a number
+The Ganesha is a keyboard inspired by and forked from the amazing Corne keyboard. After having built a number
 of Corne KBs, I need something that has the number row. There are other forks like Lily58 (and further still, like
 Sofle, Orbit etc) but they have certain features that I have a strong preference to remove (mirrored PCB, unutilized
 component designations, dependence on Pro Micro etc).
