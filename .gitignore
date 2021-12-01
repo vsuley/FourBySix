@@ -29,3 +29,4 @@ gerber/
 *.dsn
 *.ses
 cherry/pcb/sym-lib-table
+cherry/pcb/kbd
