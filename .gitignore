@@ -28,5 +28,10 @@ gerber/
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+
+# Library settings that would be unique to dev setup.
 cherry/pcb/sym-lib-table
-cherry/pcb/kbd
+cherry/kbd
+cherry/pcb/fp-lib-table
+
