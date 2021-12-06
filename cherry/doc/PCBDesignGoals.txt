@@ -1,0 +1,62 @@
+Layers:
+=======
+Sticking to 2 layers for cost and ease of manufacturing. 
+- Cheaper.
+- Leaves more room for someone who might want to DIY the PCB itself.
+- Stay with community convention, unless there is good reason not to.
+
+Stack up:
+- Top layer:
+    - GND pour (stitched)
+    - Horizontal signals
+    - Horizontal Vcc
+- Bottom layer: 
+    - GND pour (stitched)
+    - Vertical signals
+    - Vertical Vcc
+
+Routing:
+========
+Here are the main lines running through most of the board:
+- Vcc
+- LED Data
+- 5x Row lines
+- 6x Column lines
+
+Routing Priority:
+Route Vcc and GND first since they would be
+ the widest lines. Also, this would allow you free reign in distrubuting
+ adequate number of Vcc and GND lines evenly through the board. Then you can
+route signal lines, which will be thinner, in any space left.
+
+Trace Widths (2nd consult wanted):
+Vcc & GND: 20mils
+Signal: 6mils
+Via: 13mils
+
+Component placement:
+====================
+Top:
+- OLED
+- MCU
+- Headphone jack
+- Reset Button
+- Rotary encoder
+
+Bottom:
+- WS2812B for underglow
+- Kailh switches
+- SK6812Mini-E for per key lighting.
+    - If JLC PCB offered two sided SMT services, could use WS2812B on both sides (since SK6812MINI-E is not in their catalog).
+
+Usability features:
+===================
+Testing/Debuggind ports:
+- Vcc
+- GND
+
+Screen printed info:
+- Diode boxes.
+- LED numbers
+- Row# on traces.
+- 
